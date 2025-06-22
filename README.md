@@ -1,15 +1,8 @@
 # workerd-aws
+ 
+Workerd running on AWS ECS with Fargate tasks behind a CloudFront and a private Application Load Balancer.
 
-To install dependencies:
+More context can be found at https://x.com/florentcollin_/status/1936893967930450316
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.16. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+> [!warning]
+> This is just a PoC, definitely nowhere near ready for production.
