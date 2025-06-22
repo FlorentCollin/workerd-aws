@@ -1,0 +1,20 @@
+{
+  "name": "workerd-aws",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "aws-cdk": "^2.1019.1",
+    "aws-cdk-lib": "^2.202.0",
+    "cdk-fck-nat": "^1.6.4",
+    "cdk-iam-floyd": "^0.710.0",
+    "constructs": "^10.4.2",
+    "wrangler": "^4.20.5"
+  }
+}

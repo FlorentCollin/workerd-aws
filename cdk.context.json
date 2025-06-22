@@ -1,0 +1,8 @@
+{
+  "availability-zones:account=357768690085:region=eu-west-3": [
+    "eu-west-3a",
+    "eu-west-3b",
+    "eu-west-3c"
+  ],
+  "ami:account=357768690085:filters.image-type.0=machine:filters.name.0=fck-nat-al2023-*-arm64-ebs:filters.state.0=available:owners.0=568608671756:region=eu-west-3": "ami-0fa7837a41d8256d4"
+}
